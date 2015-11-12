@@ -12,4 +12,4 @@ client.sendto("AABBCC",(target_host,target_port))
 # reveave data
 data, addr = client.recvfrom(4096)
 
-print response
+print data
